@@ -1,0 +1,17 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-r from-[#2E0249] to-[#570A57] min-h-screen;
+}
+
+.button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #1c4d9d;
+}
