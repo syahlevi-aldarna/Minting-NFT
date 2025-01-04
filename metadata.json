@@ -1,6 +1,52 @@
 {
-    "name": "My NFT",
-    "description": "This is my NFT description",
-    "image": "https://example.com/path/to/image.png"
-  }
-  
+  "nfts": [
+    {
+      "tokenId": "1",
+      "name": "Cosmic Dreamscape #1",
+      "description": "A mesmerizing digital artwork that blends surreal cosmic elements with vibrant neon colors, creating a dreamlike atmosphere that captures the imagination.",
+      "image": "/api/placeholder/400/400",
+      "attributes": [
+        { "trait_type": "Category", "value": "Art" },
+        { "trait_type": "Style", "value": "Abstract" },
+        { "trait_type": "Colors", "value": "Neon" }
+      ],
+      "creator": "Digital Dreams Studio",
+      "price": "2.5 ETH",
+      "likes": 124,
+      "views": 1200,
+      "trendingPercentage": 12
+    },
+    {
+      "tokenId": "2",
+      "name": "Cyber Punk Portrait #7",
+      "description": "A stunning cyberpunk-inspired portrait featuring futuristic elements and a neo-noir aesthetic, perfect for collectors of digital art.",
+      "image": "/api/placeholder/400/400",
+      "attributes": [
+        { "trait_type": "Category", "value": "Art" },
+        { "trait_type": "Style", "value": "Cyberpunk" },
+        { "trait_type": "Colors", "value": "Dark" }
+      ],
+      "creator": "NeoArt Collective",
+      "price": "1.8 ETH",
+      "likes": 98,
+      "views": 850,
+      "trendingPercentage": 8
+    },
+    {
+      "tokenId": "3",
+      "name": "Digital Symphony #3",
+      "description": "An audiovisual masterpiece that combines intricate visual patterns with synchronized musical elements, creating a unique sensory experience.",
+      "image": "/api/placeholder/400/400",
+      "attributes": [
+        { "trait_type": "Category", "value": "Music" },
+        { "trait_type": "Style", "value": "Electronic" },
+        { "trait_type": "Colors", "value": "Rainbow" }
+      ],
+      "creator": "Sound & Vision Labs",
+      "price": "3.2 ETH",
+      "likes": 156,
+      "views": 1500,
+      "trendingPercentage": 15
+    }
+  ]
+}
